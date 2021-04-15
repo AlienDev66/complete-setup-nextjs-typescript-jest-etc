@@ -51,23 +51,27 @@ IN DEVELOPMENT
 
 ## Built-in CLI
 
-
-<div>
- <img width="600" src="./boilerplate-cli.gif" >
-</div>
 <br/>
 
 <br />
 
-To start the CLI, you may have to install it beforehand if you haven't yet.
+To start the Project, you may have to meke it beforehand if you haven't yet.
 
 ```
-~ $ npm i -g @pankod/pankod-cli
+~ $ git clone https://github.com/AlienDev66/complete-setup-nextjs-typescript-jest-etc.git
+```
+Install dependences with:
+```
+~ $ yarn install
+```
+or
+```
+~ $ npm install
 ```
 
-Then you can use it in your projects:
+Then you can use this project:
 ```
-~ $ npm run cli
+~ $ yarn dev
 ```
 
 After starting, an interactive menu will let you configure the component to be created. Firstly, you'll be asked for the type of the component whether it's a page or a functional component. Then you'll be prompted with the other options relevant to your selection.
@@ -79,4 +83,4 @@ Eventually, you'll end up with a page or component with style and test files in 
 
 ## License
 
-Licensed under the MIT License, Copyright © 2018-present Pankod
+Licensed under the MIT License, Copyright © 2021-present AlienDev66
